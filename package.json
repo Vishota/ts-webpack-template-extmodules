@@ -10,7 +10,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack --mode development",
-    "js": "node dist/bundle",
+    "js": "webpack && node dist/bundle",
     "ts": "ts-node dist/bundle"
   }
 }
